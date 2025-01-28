@@ -8,4 +8,10 @@ public class UnitTest1
         
         Assert.True(true);
     }
+
+    [Fact]
+    public void Test2()
+    {
+        Assert.False(true);
+    }
 }
